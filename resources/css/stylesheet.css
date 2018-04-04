@@ -1,7 +1,42 @@
+/* Shared Styles */
+
+*{
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+
+
+
+/* Header */
+
 .navbar-default .navbar-nav > .active > a{
     color: #399bd1;
 }
 
-.navbar-default .navbar-nav  .active  a:hover{
-  color: #399bd1;
+
+/* Jumbotron */
+
+.jumbotron{
+  height: 44rem;
+  text-align: center;
+  color: white;
+  text-shadow: #000 1px 0 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron h1{
+  font-family: 'Monoton', cursive;
+  font font-size: 7.1rem;
+}
+
+.jumbotron p{
+  width: 55rem;
+  margin: auto;
+}
+
+.jumbotron-bike{
+  background-image: url("resources/../../images/jumbotron-bike.jpg");
 }
