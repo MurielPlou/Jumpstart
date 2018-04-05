@@ -10,10 +10,26 @@
   width: 15rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  font-size: 2ßrem;
+  font-size: 2rem;
   color: white;
   text-shadow: #FFF 1px 0 10px;
   margin-top: 2.8rem;
+}
+
+img{
+  width: 100%;
+}
+
+.image-container{
+  opacity: .8;
+}
+
+.image-container:hover img{
+  overflow: hidden;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s, 0.5s;
+  transform: scale(1.5);
 }
 
 
@@ -24,11 +40,17 @@
     color: #399bd1;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-nav a{
+    margin-left: 2rem;
+  }
+}
+
 
 /* Jumbotron */
 
 .jumbotron{
-  height: 44rem;
+  height: 90%;
   text-align: center;
   color: white;
   text-shadow: #000 1px 0 10px;
@@ -39,7 +61,8 @@
 
 .jumbotron h1{
   font-family: 'Monoton', cursive;
-  font font-size: 7.1rem;
+  font-size: 10rem;
+  margin-top: 5rem;
 }
 
 .jumbotron p{
@@ -49,15 +72,71 @@
 
 .jumbotron-bike{
   background-image: url("resources/../../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-beer{
+  background-image: url("resources/../../images/jumbotron-beer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-flowers{
+  background-image: url("resources/../../images/jumbotron-flowers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-duffel{
+  background-image: url("resources/../../images/jumbotron-duffel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+    margin-top: 8rem;
+  }
+
+  .jumbotron h1{
+    font-size: 8rem;
+    margin-top: 5rem;
+  }
+
+  .jumbotron p{
+    width: 90%;
+    margin: auto;
+  }
 }
 
 /* Featured Project Section */
 
+.featured-project img{
+  margin-top: 2.5rem;
+}
+
+.blue-title{
+  color: #399bd1;
+}
+
+.category{
+  color: #399bd1;
+}
+/* Projects Section */
+
+.text{
+  margin-bottom: 5.85rem;
+}
 
 /* Help */
 
 .help-section{
-  height: 30rem;
+  height: 20%;
   background-color: #f3f3f3;
   text-align: center;
 }
@@ -71,7 +150,7 @@ strong{
 }
 
 .help p{
-  width: 60rem;
+  width: 65%;
   padding-top: 1.5rem;
   margin: auto;
 }
