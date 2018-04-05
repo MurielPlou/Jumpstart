@@ -1,10 +1,20 @@
 /* Shared Styles */
 
 *{
-  font-family: "Open Sans";
+  font-family: 'Monoton', cursive;
   font-size: 14px;
 }
 
+.button a{
+  background-color: #399bd1;
+  width: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2ßrem;
+  color: white;
+  text-shadow: #FFF 1px 0 10px;
+  margin-top: 2.8rem;
+}
 
 
 
@@ -22,9 +32,9 @@
   text-align: center;
   color: white;
   text-shadow: #000 1px 0 10px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .jumbotron h1{
@@ -39,4 +49,29 @@
 
 .jumbotron-bike{
   background-image: url("resources/../../images/jumbotron-bike.jpg");
+}
+
+/* Featured Project Section */
+
+
+/* Help */
+
+.help-section{
+  height: 30rem;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.help{
+  padding: 5.2rem;
+}
+
+strong{
+  font-size: 4rem;
+}
+
+.help p{
+  width: 60rem;
+  padding-top: 1.5rem;
+  margin: auto;
 }
